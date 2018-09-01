@@ -1,0 +1,26 @@
+wget -c http://cdn.change-vision.com/files/astah-community-7_2_0-1ff236.zip
+unzip -o astah-community-7_2_0-1ff236.zip -d /opt/astah
+nano /usr/bin/astah
+
+#!/bin/bash
+java -jar /opt/astah/astah-community.jar
+
+
+
+chmod 555 /usr/bin/astah
+
+convert /opt/astah/astah.ico /opt/astah/astah.png
+
+
+nano /home/ander/Desktop/astah.desktop
+
+[Desktop Entry]
+Type=Application
+Comment=Create powerfull diagrams
+Icon[pt_BR]=/opt/astah/astah-5.png
+Exec=astah
+Name[pt_BR]=Astah Community
+Name=Astah
+Icon=/opt/astah/astah-5.png
+
+

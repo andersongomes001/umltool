@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Comment=Create powerfull diagrams
+Icon[pt_BR]=/opt/astah/astah-5.png
+Exec=astah
+Name[pt_BR]=Astah Community
+Name=Astah
+Icon=/opt/astah/astah-5.png
